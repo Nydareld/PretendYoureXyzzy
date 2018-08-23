@@ -1,5 +1,5 @@
   {
     "deploy": {
-      "goal": "exec:java"
+      "goal": "-Dmaven.buildNumber.doCheck=false -Dmaven.buildNumber.doUpdate=false exec:java"
     }
   }
