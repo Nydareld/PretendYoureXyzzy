@@ -51,6 +51,8 @@
           </execution>
         </executions>
         <configuration>
+          <doCheck>false</doCheck>
+          <doUpdate>false</doUpdate>  <-----  changed this from true
           <mainClass>net.socialgamer.cah.UpdateJsConstants</mainClass>
         </configuration>
       </plugin>
@@ -58,6 +60,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
+          
           <source>1.8</source>
           <target>1.8</target>
           <executable>${java.home}/bin</executable>
