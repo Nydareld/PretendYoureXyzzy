@@ -1,0 +1,5 @@
+  {
+    "deploy": {
+      "goal": "-Dmaven.buildNumber.doCheck=false -Dmaven.buildNumber.doUpdate=false"
+    }
+  }
